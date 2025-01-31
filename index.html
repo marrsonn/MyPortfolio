@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-re7errer"
+    />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="w-lvw h-lvh bg-primary" id="home">
+      <nav
+        class="w-full h-[8vh] flex px-4 md:px-10 fixed top-0 left-0 right-0 z-10 bg-primary items-center"
+      >
+        <div
+          class="w-[90%] md:w-[20%] h-full flex items-center justify-center md:justify-end md:pr-10"
+        >
+          <p
+            class="text-[4vw] sm:text-[3.5vw] md:text-[1.8vw] text-secondary font-[600] font-fmly"
+          >
+            Kaushik
+          </p>
+        </div>
+        <div
+          class="w-full md:w-[80%] h-full md:flex md:items-center md:justify-end pr-24 pl-10 hidden"
+        >
+          <ul
+            class="flex gap-10 font-fmly md:text-[1.2vw] font-[400] text-secondary"
+          >
+            <a href="#home">
+              <li class="w-fit bg-primary border-b-[3px] border-secondary">
+                Home
+              </li>
+            </a>
+            <a href="#aboutMe">
+              <li
+                class="w-fit bg-primary hover:border-b-[3px] hover:border-secondary"
+              >
+                About Me
+              </li>
+            </a>
+            <a href="#skills">
+              <li
+                class="w-fit bg-primary hover:border-b-[3px] hover:border-secondary"
+              >
+                Skills
+              </li>
+            </a>
+            <a href="#projects">
+              <li
+                class="w-fit bg-primary hover:border-b-[3px] hover:border-secondary"
+              >
+                Projects
+              </li>
+            </a>
+            <a href="#contactMe">
+              <li
+                class="w-fit bg-primary hover:border-b-[3px] hover:border-secondary"
+              >
+                Contact Me
+              </li>
+            </a>
+          </ul>
+        </div>
+        <div class="md:hidden w-[10%] h-full flex justify-center items-center">
+          <i class="fa-solid fa-bars text-secondary text-2xl"></i>
+        </div>
+      </nav>
+
+      <!-- Home Page Begin -->
+
+      <div
+        class="h-[100%] w-lvw flex justify-center items-center md:px-0 relative z-0"
+      >
+        <div
+          class="h-[82.5%] w-lvw mx-3 md:w-[94.5%] bg-linear-[45deg] from-blue-950 to-slate-900 rounded-md flex flex-col items-center justify-center sm:flex-row md:flex-row overflow-hidden mt-[5vh]"
+        >
+          <div
+            class="h-[100%] w-[100%] sm:w-1/2 md:w-1/2 flex justify-center items-center"
+          >
+            <div
+              class="h-[80%] w-[80%] sm:h-[60%] sm:w-[80%] md:h-[60%] md:w-[80%] flex flex-col"
+            >
+              <p
+                class="text-[6vw] font-[550] font-fmly sm:text-[5vw] md:text-[3vw] text-secondary mb-[3%]"
+              >
+                I'm Kaushik <span class="text-orange-600">Tondon</span>
+              </p>
+              <div
+                class="w-[100%] h-[40%] sm:h-[50%] md:h-[30%] flex justify-end flex-wrap"
+              >
+                <p
+                  class="block text-[3vw] font-[400] font-fmly sm:text-[2vw] md:text-[1.5vw] text-secondary text-justify"
+                >
+                  <span class="font-[550]">Full-Stack Java Developer</span>, with
+                  knowledge in web development and design, I offer the best
+                  projects resulting in quality work.
+                </p>
+              </div>
+              <div
+                class="mt-4 sm:mt-[10%] flex gap-[5%] items-center flex-wrap w-full h-10 sm:h-[15%] md:h-[15%] md:mt-[20%]"
+              >
+                <a href="https://www.linkedin.com/"
+                  ><i
+                    class="fa-brands fa-linkedin text-[3vh] sm:text-[4vw] md:text-[2.2vw] text-gray-200 hover:text-white"
+                  ></i
+                ></a>
+                <a
+                  href="https://www.instagram.com/accounts/login/?next=%2Flogin%2F&source=desktop_nav"
+                  ><i
+                    class="fa-brands fa-instagram text-[3vh] sm:text-[4vw] md:text-[2.2vw] text-gray-200 hover:text-white"
+                  ></i
+                ></a>
+                <a href="#"
+                  ><i
+                    class="fa-brands fa-x-twitter text-[3vh] sm:text-[4vw] md:text-[2.2vw] text-gray-200 hover:text-white"
+                  ></i
+                ></a>
+                <a href="#"
+                  ><i
+                    class="fa-brands fa-github text-[3vh] sm:text-[4vw] md:text-[2.2vw] text-gray-200 hover:text-white"
+                  ></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="h-full w-full sm:w-1/2 md:w-1/2 flex justify-end items-center relative"
+          >
+            <div
+              class="h-full w-[30.3%] bg-linear-to-r from-0 to-orange-800"
+            ></div>
+            <div
+              class="flex justify-center items-center h-fit w-fit rotate-45 absolute lg:top-[12%] lg:right-[18%] md:top-[12%] md:right-[13%] sm:top-[15%] sm:right-[12%] top-[15%] right-[25%] border-[5px] border-amber-300 border-t-orange-600 border-r-orange-600 outline-offset-[5px] outline-[5px] outline-amber-300 rounded-full sm:border-[8px] sm:outline-[8px] sm:outline-offset-[8px] md:border-[10px] md:outline-[10px] md:outline-offset-[10px]"
+            >
+              <img
+                src="./assets/profile-pic-crop.png"
+                alt=""
+                class="h-[30vw] w-[30vw] sm:h-[30vw] sm:w-[30vw] md:h-[25vw] md:w-[25vw] lg:h-[20vw] lg:w-[20vw] lg:top-[15%] lg:right-[18%] md:top-[15%] md:right-[12%] sm:top-[15%] sm:right-[12%] top-[15%] right-[25%] rotate-[-45deg]"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Home Page End -->
+
+      <!-- About Me page Begin -->
+
+      <div
+        class="h-[100%] wlvh flex justify-center items-center md:px-0 bg-primary"
+        id="aboutMe"
+      >
+        <div
+          class="h-[85%] w-lvw mx-3 md:w-[95%] bg-linear-[135deg] from-slate-900 to-blue-950 rounded-md flex flex-col items-center justify-center sm:flex-row md:flex-row overflow-hidden mt-[2vh]"
+        >
+          <div
+            class="h-[100%] w-[100%] sm:w-[40%] md:w-[40%] flex justify-center items-center pt- bg-linear-[95deg] from-orange-800 to-0"
+          >
+            <!-- image section -->
+            <!-- <div class="h-[90%] w-[50%] sm:max-h-[80%] sm:max-w-[90%]  md:max-h-[28rem] md:max-w-[19rem] lg:max-h-[30rem] lg:max-w-[25rem]  flex justify-center items-center m-4 relative border-2 border-fuchsia-500">  
+                     </div> -->
+            <!-- <img src="/assets/profile-frame2.png" alt="" class=" h-full w- absolute "> -->
+            <img
+              src="./assets/profile-pic-rec.jpg"
+              alt="about img"
+              class="h-[80%] w-[60%] max-h-[85%] max-w-[80%] rounded-md"
+            />
+          </div>
+          <div
+            class="h-fit w-[100%] sm:w-[60%] md:w-[60%] flex flex-col justify-start items-center"
+          >
+            <div
+              class="h-[7vw] w-full sm:h-[5vw] md:h-[3vw] sm:mt-[-5rem] sm:mb-[2vw] md:mt-[-5rem] md:mb-[2vw] lg:mt-[-7rem] lg:mb-[2vw] text-secondary font-fmly font-[500] text-[5vw] pl-2"
+            >
+              <p
+                class="h-[6vw] w-[30vw] sm:h-[3.7vw] sm:text-[3vw] md:h-[2.5vw] md:text-[2vw]"
+              >
+                About Me
+              </p>
+              <div
+                class="w-full h-fit mb-[15px] flex flex-col gap-[0.3vw] sm:gap-[0.2vw] md:gap-[0.1vw]"
+              >
+                <div
+                  class="h-[0.6vw] w-[26vw] sm:h-[0.4vw] sm:w-[16vw] md:h-[0.3vw] md:w-[11vw] lg:h-[0.3vw] lg:w-[11vw] bg-secondary rounded-r-md"
+                ></div>
+                <!-- <div class="h-[0.8vw] w-[33vw] sm:h-[0.5vw] sm:w-[21vw] md:h-[0.4vw] md:w-[15vw] lg:h-[0.4vw] lg:w-[15vw] bg-secondary rounded-r-md"></div> -->
+              </div>
+            </div>
+            <div
+              class="h-full sm:h-[50%] md:h-[60%] lg:h-[60%] flex flex-col justify-center"
+            >
+              <div
+                class="w-fit h-fit mt-[1vw] sm:mt-[0.5vw] md:mt-[0.5vw] lg:mt-[0.5vw] flex justify-start items-center flex-wrap pl-2 sm:h-[2vw] md:h-[2vw] lg:h-[1.5vw]"
+              >
+                <p
+                  class="text-[3vw] font-fmly sm:text-[2.2vw] font-[500] md:text-[1.8vw] lg:text-[1.4vw] text-orange-600"
+                >
+                  Full-Stack Java Developer!
+                </p>
+              </div>
+              <div
+                class="h-fit w-full pl-2 pr-6 flex justify-center items-center mt-[2vw] sm:mt-[1vw] md:mt-[1vw] lg:mt-[1vw]"
+              >
+                <p
+                  class="text-justify text-[2.5vw] font-fmly font-[450] sm:text-[1.5vw] md:text-[1.5vw] lg:text-[1vw] text-gray-200"
+                >
+                  I am a passionate and detail-oriented Full-Stack Java
+                  Developer with expertise in building robust, scalable, and
+                  efficient web applications. With hands-on experience in Java,
+                  Spring Boot, Hibernate, and modern front-end technologies like
+                  React and Angular, I specialize in crafting seamless user
+                  experiences backed by strong, secure backend systems.
+                  <br />
+                  I thrive on solving complex problems, optimizing performance,
+                  and collaborating with cross-functional teams to deliver
+                  high-quality software solutions. My projects reflect my
+                  dedication to clean code, best practices, and staying
+                  up-to-date with industry trends.
+                </p>
+              </div>
+            </div>
+            <div
+              class="w-full h-fit mt-4 sm:mt-14 md:mt-14 lg:mt-14 gap-[5vw] pl-2 pr-2 font-fmly font-[550] flex justify-start"
+            >
+              <a
+                href="./assets/Kaushik_Tondon_SDE_l.pdf"
+                download="Kaushik_Tondon_SDE_l"
+                ><button
+                  class="bg-white h-[7vw] w-[25vw] sm:w-[15vw] sm:h-[5vw] md:w-[15vw] md:h-[4vw] lg:w-[11vw] lg:h-[3vw] p-[5px] text-[2vw] sm:text-[1.5vw] md:text-[1.5vw] lg:text-[1vw] flex items-center justify-center rounded-md hover:text-secondary hover:bg-primary border-2 border-secondary"
+                >
+                  Download CV
+                </button></a
+              >
+              <a href="#contactMe"><button
+                class="bg-white h-[7vw] w-[25vw] sm:w-[15vw] sm:h-[5vw] md:w-[15vw] md:h-[4vw] lg:w-[11vw] lg:h-[3vw] p-[5px] text-[2vw] sm:text-[1.5vw] md:text-[1.5vw] lg:text-[1vw] flex items-center justify-center rounded-md hover:text-secondary hover:bg-primary border-2 border-secondary"
+              >
+                Contact Me
+              </button></a>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+
+      <!-- Skills Section -->
+
+      <div
+        class="h-[100%] wlvh flex justify-center items-center md:px-0 bg-primary"
+        id="skills"
+      >
+        <div
+          class="h-[85%] w-lvw mx-3 md:w-[95%] bg-linear-[135deg] from-blue-950 to-slate-900 rounded-md flex flex-col items-center justify-start lg:overflow-hidden mt-[2vh] sm:overflow-y-auto md:overflow-y-auto py-5"
+        >
+          <div
+            class="h-[6rem] md:max-h-20: w-full justify-end items-center flex flex-col"
+          >
+            <p class="font-fmly text-2xl font-medium text-white">
+              Professional Skills
+            </p>
+            <p class="font-fmly text-lg font-medium text-orange-600">
+              My Talent
+            </p>
+          </div>
+          <div class="h-full w-full flex flex-wrap md:justify-evenly py-5">
+            <div
+              class="h-[8rem] w-[10rem] sm:h-[8rem] sm:w-[20rem] md:h-[8rem] md:w-[20rem] border-b-2 border-white my-[5px]"
+            >
+              <div class="h-[30%] w-full flex justify-center items-center">
+                <p class="text-amber-300 text-lg font-fmly font-medium">
+                  HTML5
+                </p>
+              </div>
+              <div class="h-[70%] w-full flex justify-center items-start">
+                <p
+                  class="m-[5px] text-justify text-gray-200 text-sm font-fmly font-normal"
+                >
+                  Skilled in creating semantic, accessible, SEO-optimized web
+                  pages using HTML5, with features like multimedia embedding and
+                  local storage.
+                </p>
+              </div>
+            </div>
+            <div
+              class="h-[8rem] w-[10rem] sm:h-[8rem] sm:w-[20rem] md:h-[8rem] md:w-[20rem] border-b-2 border-white my-[5px]"
+            >
+              <div class="h-[30%] w-full flex justify-center items-center">
+                <p class="text-amber-300 text-lg font-fmly font-medium">CSS3</p>
+              </div>
+              <div class="h-[70%] w-full flex justify-center items-center">
+                <p
+                  class="m-[5px] text-justify text-gray-200 text-sm font-fmly font-normal"
+                >
+                  Experienced in creating responsive layouts with CSS3, using
+                  Flexbox, CSS Grid, and pre-processors like SASS. Skilled in
+                  BEM for scalable CSS architecture.
+                </p>
+              </div>
+            </div>
+            <div
+              class="h-[8rem] w-[10rem] sm:h-[8rem] sm:w-[20rem] md:h-[8rem] md:w-[20rem] border-b-2 border-white my-[5px]"
+            >
+              <div class="h-[30%] w-full flex justify-center items-center">
+                <p class="text-amber-300 text-lg font-fmly font-medium">
+                  JavaScript
+                </p>
+              </div>
+              <div class="h-[70%] w-full flex justify-center items-center">
+                <p
+                  class="m-[5px] text-justify text-gray-200 text-sm font-fmly font-normal"
+                >
+                  Proficient in ES6+ JavaScript, utilizing modern features like
+                  async/await, promises, and AJAX for dynamic web applications
+                  and efficient data handling.
+                </p>
+              </div>
+            </div>
+            <div
+              class="h-[8rem] w-[10rem] sm:h-[8rem] sm:w-[20rem] md:h-[8rem] md:w-[20rem] border-b-2 border-white my-[5px]"
+            >
+              <div class="h-[30%] w-full flex justify-center items-center">
+                <p class="text-amber-300 text-lg font-fmly font-medium">
+                  TailwindCSS
+                </p>
+              </div>
+              <div class="h-[70%] w-full flex justify-center items-center">
+                <p
+                  class="m-[5px] text-justify text-gray-200 text-sm font-fmly font-normal"
+                >
+                  Skilled in using Tailwind CSS for utility-first, responsive
+                  UIs, and customizing themes with breakpoints and state
+                  variants for production-ready designs.
+                </p>
+              </div>
+            </div>
+            <div
+              class="h-[8rem] w-[10rem] sm:h-[8rem] sm:w-[20rem] md:h-[8rem] md:w-[20rem] border-b-2 border-white my-[5px]"
+            >
+              <div class="h-[30%] w-full flex justify-center items-center">
+                <p class="text-amber-300 text-lg font-fmly font-medium">
+                  Java (Core + Advanced)
+                </p>
+              </div>
+              <div class="h-[70%] w-full flex justify-center items-center">
+                <p
+                  class="m-[5px] text-justify text-gray-200 text-sm font-fmly font-normal"
+                >
+                  Strong in Java for backend development, applying OOP
+                  principles, Spring Boot for microservices, REST APIs, and
+                  Spring Security for authentication.p>
+                </p>
+              </div>
+            </div>
+            <div
+              class="h-[8rem] w-[10rem] sm:h-[8rem] sm:w-[20rem] md:h-[8rem] md:w-[20rem] border-b-2 border-white my-[5px]"
+            >
+              <div class="h-[30%] w-full flex justify-center items-center">
+                <p class="text-amber-300 text-lg font-fmly font-medium">
+                  React.Js
+                </p>
+              </div>
+              <div class="h-[70%] w-full flex justify-center items-center">
+                <p
+                  class="m-[5px] text-justify text-gray-200 text-sm font-fmly font-normal"
+                >
+                  Experienced in building SPAs with React.js, using hooks, Redux
+                  for state management, and React Router for dynamic navigation.
+                </p>
+              </div>
+            </div>
+            <div
+              class="h-[8rem] w-[10rem] sm:h-[8rem] sm:w-[20rem] md:h-[8rem] md:w-[20rem] border-b-2 border-white my-[5px]"
+            >
+              <div class="h-[30%] w-full flex justify-center items-center">
+                <p class="text-amber-300 text-lg font-fmly font-medium">
+                  Spring Boot
+                </p>
+              </div>
+              <div class="h-[70%] w-full flex justify-center items-center">
+                <p
+                  class="m-[5px] text-justify text-gray-200 text-sm font-fmly font-normal"
+                >
+                  Expertise in Spring Boot for building RESTful APIs,
+                  microservices, and secure applications with Spring Security,
+                  and utilizing Spring Data JPA for database interactions.
+                </p>
+              </div>
+            </div>
+            <div
+              class="h-[8rem] w-[10rem] sm:h-[8rem] sm:w-[20rem] md:h-[8rem] md:w-[20rem] border-b-2 border-white my-[5px]"
+            >
+              <div class="h-[30%] w-full flex justify-center items-center">
+                <p class="text-amber-300 text-lg font-fmly font-medium">
+                  MySQL
+                </p>
+              </div>
+              <div class="h-[70%] w-full flex justify-center items-center">
+                <p
+                  class="m-[5px] text-justify text-gray-200 text-sm font-fmly font-normal"
+                >
+                  Proficient in MySQL, writing optimized SQL queries, managing
+                  databases, and implementing indexing, joins, and normalization
+                  for high performance.
+                </p>
+              </div>
+            </div>
+            <div
+              class="h-[8rem] w-[10rem] sm:h-[8rem] sm:w-[20rem] md:h-[8rem] md:w-[20rem] border-b-2 border-white my-[5px]"
+            >
+              <div class="h-[30%] w-full flex justify-center items-center">
+                <p class="text-amber-300 text-lg font-fmly font-medium">
+                  Oracle SQL+
+                </p>
+              </div>
+              <div class="h-[70%] w-full flex justify-center items-center">
+                <p
+                  class="m-[5px] text-justify text-gray-200 text-sm font-fmly font-normal"
+                >
+                  Advanced knowledge of SQL*Plus, using PL/SQL for stored
+                  procedures, triggers, and batch processing, optimizing Oracle
+                  database performance.
+                </p>
+              </div>
+            </div>
+            <div
+              class="h-[8rem] w-[10rem] sm:h-[8rem] sm:w-[20rem] md:h-[8rem] md:w-[20rem] border-b-2 border-white my-[5px]"
+            >
+              <div class="h-[30%] w-full flex justify-center items-center">
+                <p class="text-amber-300 text-lg font-fmly font-medium">
+                  Git & GitHub
+                </p>
+              </div>
+              <div class="h-[70%] w-full flex justify-center items-center">
+                <p
+                  class="m-[5px] text-justify text-gray-200 text-sm font-fmly font-normal"
+                >
+                  Proficient in Git for version control and branching strategies
+                  (GitFlow), collaborating via GitHub for code reviews, pull
+                  requests, and project management.
+                </p>
+              </div>
+            </div>
+            <div
+              class="h-[8rem] w-[10rem] sm:h-[8rem] sm:w-[20rem] md:h-[8rem] md:w-[20rem] border-b-2 border-white my-[5px]"
+            >
+              <div class="h-[30%] w-full flex justify-center items-center">
+                <p class="text-amber-300 text-lg font-fmly font-medium">
+                  AWS Cloud
+                </p>
+              </div>
+              <div class="h-[70%] w-full flex justify-center items-center">
+                <p
+                  class="m-[5px] text-justify text-gray-200 text-sm font-fmly font-normal"
+                >
+                  Experienced with AWS services like EC2, S3, Lambda, RDS, and
+                  CI/CD automation using CloudFormation and CodePipeline for
+                  scalable cloud applications.
+                </p>
+              </div>
+            </div>
+            <div
+              class="h-[8rem] w-[10rem] sm:h-[8rem] sm:w-[20rem] md:h-[8rem] md:w-[20rem] border-b-2 border-white my-[5px]"
+            >
+              <div class="h-[30%] w-full flex justify-center items-center">
+                <p class="text-amber-300 text-lg font-fmly font-medium">
+                  RESTful API Integration
+                </p>
+              </div>
+              <div class="h-[70%] w-full flex justify-center items-center">
+                <p
+                  class="m-[5px] text-justify text-gray-200 text-sm font-fmly font-normal"
+                >
+                  Skilled in developing and consuming RESTful APIs, implementing
+                  authentication, rate-limiting, and secure data exchanges with
+                  best practices.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Section -->
+      <div
+        class="h-[100%] wlvh flex justify-center items-center md:px-0 bg-primary"
+        id="projects"
+      >
+        <div
+          class="h-[85%] w-lvw mx-3 md:w-[95%] bg-linear-[135deg] from-blue-950 to-slate-900 rounded-md flex items-center justify-center md:overflow-hidden mt-[2vh] overflow-y-auto"
+        >
+          <!-- media 1 -->
+          <div class="flex justify-center mx-5">
+            <div class="rounded-lg shadow-lg bg-white max-w-sm">
+              <a href="#!">
+                <video
+                  width="320"
+                  height="240"
+                  controls
+                  autoplay
+                  loop
+                  muted
+                  class="w-full rounded-t-lg"
+                >
+                  <source 
+                  src="./assets/WorkHive.mp4" 
+                  type="video/mp4" />
+                </video>
+              </a>
+              <div class="p-6">
+                <h5 class="text-gray-900 text-xl font-medium mb-2">WorkHive</h5>
+                <p class="text-gray-700 text-base text-justify">
+                  Developed a Java-based Employee Management System using Swing,
+                  AWT, and MySQL. Designed a user-friendly interface for adding,
+                  viewing, updating, and deleting employee records. Ensured
+                  efficient data storage and retrieval through a well-organized
+                  MySQL database for smooth operations.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- media 2 -->
+          <div class="flex justify-center mx-5 bg-black pt-8 rounded-t-lg">
+            <div class="rounded-lg shadow-lg bg-white max-w-sm">
+              <a href="#!">
+                <video
+                  width="320"
+                  height="240"
+                  controls
+                  autoplay
+                  loop
+                  muted
+                  class="w-full border-b-4"
+                >
+                  <source
+                    src="./assets/canteen-management2-muted.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </a>
+              <div class="p-6">
+                <h5 class="text-gray-900 text-xl font-medium mb-2">
+                  Canteen Management
+                </h5>
+                <p class="text-gray-700 text-base text-justify">
+                  Canteen Management is dynamic web application using HTML, CSS,
+                  JavaScript, and MySQL, hosted on a local XAMPP server.
+                  Implemented efficient back-end functionality with JavaScript
+                  and MySQL, focusing on intuitive design to improve user
+                  experience and streamline operations.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- media 3 -->
+          <div class="flex justify-center mx-5">
+            <div class="rounded-lg shadow-lg bg-white max-w-sm">
+              <a href="#!">
+                <video
+                  width="320"
+                  height="240"
+                  controls
+                  autoplay
+                  loop
+                  muted
+                  class="w-full rounded-t-lg border-b-2"
+                >
+                  <source
+                    src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                    type="video/mp4"
+                  />
+              </a>
+              <div class="p-6">
+                <h5 class="text-gray-900 text-xl font-medium mb-2">
+                  Cineverse
+                </h5>
+                <p class="text-gray-700 text-base text-justify">
+                  Built a movie recommendation platform with HTML, CSS,
+                  JavaScript, MySQL, and Python. Utilizes Content-Based
+                  Filtering to offer personalized suggestions based on features
+                  like genre, director, and actors. Features an optimized
+                  back-end and user-friendly interface for enhanced performance.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Me Section -->
+      <div
+        class="h-[100%] wlvh flex justify-center items-center md:px-0 bg-primary"
+        id="contactMe"
+      >
+        <div
+          class="h-[85%] w-lvw mx-3 md:w-[95%] bg-linear-[135deg] from-blue-950 to-slate-900 rounded-md flex items-center justify-center md:overflow-hidden mt-[2vh] overflow-y-auto"
+        >
+          <!-- ContactMe Form begin -->
+          <div class="bg-gray-100 rounded-lg overflow-hidden">
+            <div class="container mx-auto py-1 my-2">
+              <div class="max-w-lg mx-auto px-4">
+                <h2 class="text-3xl font-semibold text-gray-900 mb-4 font-fmly">
+                  Contact Me
+                </h2>
+                <p class="text-gray-700 font-medium mb-0 font-fmly">
+                  Feel free to reach out!
+                </p>
+                <p class="text-gray-700 mb-2 font-fmly">
+                  Share your name, email, and message, and I’ll respond as soon
+                  as possible.
+                </p>
+                <form
+                  action=""
+                  class="bg-white rounded-lg px-6 py-2 shadow-md"
+                >
+                  <div class="mb-4">
+                    <label
+                      class="block text-gray-700 font-bold mb-2 font-fmly"
+                      for="name"
+                      >Name</label
+                    >
+                    <input
+                      class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline font-fmly"
+                      id="name"
+                      type="text"
+                      placeholder="Enter your name"
+                    />
+                  </div>
+                  <div class="mb-4">
+                    <label
+                      class="block text-gray-700 font-bold mb-2 font-fmly"
+                      for="email"
+                      >Email</label
+                    >
+                    <input
+                      class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline font-fmly"
+                      id="email"
+                      type="email"
+                      placeholder="Enter your email"
+                    />
+                  </div>
+                  <div class="mb-4">
+                    <label
+                      class="block text-gray-700 font-bold mb-2 font-fmly"
+                      for="message"
+                      >Message</label
+                    >
+                    <textarea
+                      class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline font-fmly"
+                      id="message"
+                      rows="6"
+                      placeholder="Enter your message"
+                    ></textarea>
+                  </div>
+                  <div class="flex justify-center">
+                    <button
+                      class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full font-fmly"
+                      type="button"
+                    >
+                      Send
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <!-- ContactMe Form end -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
